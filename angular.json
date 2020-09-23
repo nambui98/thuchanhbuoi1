@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bai1"
+    }
+  },
+  "defaultProject": "bai1",
+  "cli": {
+    "analytics": false
+  }
 }
