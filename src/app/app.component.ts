@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
   s: any;
   s2: any;
   s7: any;
+  s8: any;
   list = [
     { hoten: 'Nguyen Thi Mai', diemthi: 9 },
     { hoten: 'Tran Thi Anh', diemthi: 7.5 },
@@ -127,5 +128,10 @@ export class AppComponent implements OnInit {
     } else if (delta < 0) {
       this.result7 = `Phương trình vô nghiệm`;
     }
+  }
+  ontinhthetich(value: any) {
+    let b = parseInt(value.x);
+    let h = parseInt(value.n);
+    this.s8 = (b * h) / 3;
   }
 }
